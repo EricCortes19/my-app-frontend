@@ -1,0 +1,30 @@
+/* src/components/Header.css */
+
+.nav-link {
+    color: #aa37b9 !important; /* Asegurarse de que el texto sea blanco por defecto */
+    background-color: #333; /* Fondo oscuro para que el texto blanco sea visible */
+    border-radius: 5px; /* Añadir bordes redondeados para un mejor aspecto */
+    padding: 10px 15px; /* Añadir relleno para que los enlaces sean más grandes y fáciles de hacer clic */
+    margin: 0 5px; /* Añadir margen entre los enlaces */
+    transition: color 0.3s, background-color 0.3s; /* Transición suave para el cambio de color */
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important; /* Color del texto en hover */
+    background-color: #444; /* Color de fondo en hover */
+  }
+  
+  header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+  }
+
+  .logo {
+    width: 107px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantén la proporción original */
+    object-fit: cover;
+  }
+  
